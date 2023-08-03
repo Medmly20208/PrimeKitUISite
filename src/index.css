@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  scroll-behavior: smooth;
+}
 body {
   padding-left: 20px;
   padding-right: 20px;
-  scroll-behavior: smooth;
 }

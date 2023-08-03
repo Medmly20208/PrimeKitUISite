@@ -19,11 +19,6 @@ const index = () => {
         flexibility of Tailwind CSS to streamline your web development
         experience
       </p>
-      <div className="grid items-center ">
-        <button className="py-[0.6em] px-[0.8em] bg-blue-600 rounded-md text-white hover:bg-blue-900">
-          Get Started
-        </button>
-      </div>
     </div>
   );
 };

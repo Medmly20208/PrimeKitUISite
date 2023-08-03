@@ -21,6 +21,7 @@ import Pricing02 from "./assets/images/Pricing-02.png";
 import Pricing03 from "./assets/images/Pricing-03.png";
 import Card01 from "./assets/images/Card-01.png";
 import Footer01 from "./assets/images/Footer-01.png";
+import Footer02 from "./assets/images/Footer-02.png";
 
 function App() {
   const headers = [
@@ -102,6 +103,10 @@ function App() {
       img: Footer01,
       link: "https://github.com/Medmly20208/PrimeKitUI/tree/main/src/components/Footers/Footer-01",
     },
+    {
+      img: Footer02,
+      link: "https://github.com/Medmly20208/PrimeKitUI/tree/main/src/components/Footers/Footer-02",
+    },
   ];
   const Cards = [
     {
@@ -126,6 +131,19 @@ function App() {
         description="Choose from stunning banners"
         components={Banners}
       />
+      <div className="bg-blue-100 text-center w-full p-[0.7em] m-[2em]">
+        Have you used{" "}
+        <span className="text-blue-600 font-bold">PrimeKitUI</span> ? give us a
+        star in{" "}
+        <a
+          href="https://github.com/Medmly20208/PrimeKitUI"
+          target="_blank"
+          className="underline"
+        >
+          github
+        </a>{" "}
+        ✨
+      </div>
       <Section
         title="Features"
         id="Features"
@@ -138,6 +156,7 @@ function App() {
         description="Choose from stunning Heros"
         components={Heros}
       />
+
       <Section
         title="Pricing"
         id="Pricing"
