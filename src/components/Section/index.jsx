@@ -2,7 +2,7 @@ import React from "react";
 
 const index = ({ title, components, description, id }) => {
   return (
-    <div id={id} className="w-full mt-[50px]">
+    <div id={id || ""} className="w-full mt-[50px]">
       <h1 className="text-3xl font-bold text-left">{title}</h1>
       <p className="text-md text-gray-700 mb-[3em]">{description}</p>
       <div className="flex gap-[1em] flex-wrap items-stretch">
