@@ -22,7 +22,8 @@ import Pricing03 from "./assets/images/Pricing-03.png";
 import Card01 from "./assets/images/Card-01.png";
 import Footer01 from "./assets/images/Footer-01.png";
 import Footer02 from "./assets/images/Footer-02.png";
-import HowItWorks01 from "./assets/images/How-it-works-01.png"
+import HowItWorks01 from "./assets/images/How-it-works-01.png";
+import Review01 from "./assets/images/Review-01.png";
 
 function App() {
   const headers = [
@@ -123,6 +124,12 @@ function App() {
     },
   ];
 
+  const ReviewCards = [
+    {
+      img: Review01,
+      link: "https://github.com/Medmly20208/PrimeKitUI/tree/main/src/components/Reviews/Review-01",
+    },
+  ];
 
   return (
     <div className="w-full md:w-[60vw] flex justify-center items-center flex-col mx-auto   ">
@@ -187,11 +194,14 @@ function App() {
       />
       <Section
         title="How it works"
-       
         description="Choose from stunning 'How it works' sections"
         components={HowItWorks}
       />
-
+      <Section
+        title="Review card"
+        description="Choose from stunning Review cards"
+        components={ReviewCards}
+      />
       <div className="text-center text-gray-700 mb-2 p-[1em] border-t-2 w-full mt-[50px]">
         PrimeKitUI©copyright 2023
       </div>
