@@ -24,6 +24,7 @@ import Footer01 from "./assets/images/Footer-01.png";
 import Footer02 from "./assets/images/Footer-02.png";
 import HowItWorks01 from "./assets/images/How-it-works-01.png";
 import Review01 from "./assets/images/Review-01.png";
+import Login01 from "./assets/images/Login-01.png";
 
 function App() {
   const headers = [
@@ -131,10 +132,21 @@ function App() {
     },
   ];
 
+  const LoginPages = [
+    {
+      img: Login01,
+      link: "https://github.com/Medmly20208/PrimeKitUI/tree/main/src/components/Login/Login-01",
+    },
+  ];
   return (
     <div className="w-full md:w-[60vw] flex justify-center items-center flex-col mx-auto   ">
       <Header />
       <Hero />
+      <Section
+        title="Login pages"
+        description="Choose from stunning and responsive Login pages"
+        components={LoginPages}
+      />
       <Section
         title="Headers"
         id="Headers"
